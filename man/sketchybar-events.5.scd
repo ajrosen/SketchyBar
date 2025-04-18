@@ -113,6 +113,9 @@ the system is sleeping.
 |  power_source_change
 :  When the devices power source is changed
 :  new power source (AC or BATTERY)
+|  battery_change
+:  When the devices power state is changed
+:  power state info in a JSON structure
 |  wifi_change
 :  When the device connects of disconnects from wifi
 :  new WiFi SSID or empty on disconnect (not working on Sonoma)
